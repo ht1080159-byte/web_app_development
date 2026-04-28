@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}英文口說練習系統{% endblock %}</title>
+    <!-- CSS and JS will go here -->
+</head>
+<body>
+    <nav>
+        <!-- Navbar placeholder -->
+        <a href="/">首頁</a>
+        <a href="/dashboard">儀表板</a>
+        <a href="/practice/topics">題庫列表</a>
+    </nav>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>
